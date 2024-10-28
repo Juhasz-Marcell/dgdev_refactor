@@ -1,10 +1,16 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { MainPageComponent } from './components/main-page/main-page.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'fooldal', component: MainPageComponent },
+
+  { path: '', redirectTo: 'fooldal', pathMatch: 'full' },
+  { path: '**', redirectTo: 'fooldal' },
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules, useHash: false })],
+  exports: [RouterModule],
 })
 export class AppRoutingModule { }

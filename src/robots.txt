@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Sitemap: https://dgdev.hu/sitemap.xml

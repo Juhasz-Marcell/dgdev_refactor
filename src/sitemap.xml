@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Home page -->
+    <url>
+        <loc>https://www.dgdev.com/</loc>
+        <priority>1.0</priority>
+        <changefreq>daily</changefreq>
+    </url>
+
+    <!-- Static routes -->
+    <url>
+        <loc>https://www.dgdev.com/rolunk</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.dgdev.com/kapcsolat</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.dgdev.com/igenyfelmero</loc>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.dgdev.com/szemelyes-felmero</loc>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.dgdev.com/adatvedelmi</loc>
+        <priority>0.5</priority>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <!-- Dynamic routes (dgdev values) -->
+    <url>
+        <loc>https://www.dgdev.com/weboldalak/start</loc>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.dgdev.com/weboldalak/standard</loc>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.dgdev.com/weboldalak/premium</loc>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.dgdev.com/weboldalak/egyedi</loc>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.dgdev.com/szolgaltatasok</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.dgdev.com/szolgaltatasok/tartalomkeszites</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.dgdev.com/szolgaltatasok/grafika</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.dgdev.com/szolgaltatasok/kozossegi-media</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.dgdev.com/szolgaltatasok/meglevo-weboldal</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <!-- Fallback route -->
+    <url>
+        <loc>https://www.dgdev.com/</loc>
+        <priority>0.5</priority>
+        <changefreq>daily</changefreq>
+    </url>
+</urlset>

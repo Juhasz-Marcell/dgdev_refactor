@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Réteg_1" data-name="Réteg 1" xmlns="http://www.w3.org/2000/svg" width="1320" height="800" version="1.1"
+  viewBox="0 0 1320 800">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+        opacity: 1;
+      }
+
+      .cls-1,
+      .cls-2 {
+        fill: #131b40;
+        fill-rule: evenodd;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1"
+    d="M-.5-.5h1202c16.6,17.6,20.7,38,12.5,61-.9,2.6-3,7.1-6.9,12.1-7.5,9.4-17,13.4-20.5,14.8-5.2,2.1-5.9,1.5-13.6,4.6-4.2,1.7-8,3.3-12.5,6.1-2.6,1.7-6.8,4.4-10.8,9-5.5,6.3-8.4,12.7-9.8,18.3-2.7,10.8-5.7,21.4-9,32-5.9,15.6-16.7,26.1-32.5,31.5-11.9,3.6-24.1,5.5-36.5,5.5-13.2-.6-26.4-1.8-39.5-3.5-29-4.6-58-9.2-87-14-56.1-8-112.5-9.6-169-5-48.7,3.7-94.7,16.7-138,39-47.2,26.6-78,66.1-92.5,118.5-3.7,13.8-6.4,27.8-8,42-3.4,46.1-7.4,92.1-12,138-10.4,78.3-44.6,143.8-102.5,196.5-18.2,15.8-38.9,27.5-62,35-21.1,4.8-42.5,5.8-64,3-19.8-3.5-39.4-7.5-59-12-18.5-4-37.1-5.4-56-4-19.6,2.5-39.3,4.9-59,7-28.2,2.7-55.9,0-83-8-10.4-3.4-20.7-6.9-31-10.5V-.5Z" />
+  <!-- Use the pattern to fill the path -->
+  <defs>
+    <pattern id="imgPattern" patternUnits="objectBoundingBox" width="1" height="1">
+      <!-- Adjust the preserveAspectRatio to fit the image -->
+      <image href="contentweb.jpg" preserveAspectRatio="xMidYMid slice" width="618" height="425" />
+    </pattern>
+  </defs>
+
+  <!-- Smaller rectangle path with image fill -->
+  <path class="cls-3" d="M589.5,263.5h618v425h-618v-425Z" fill="url(#imgPattern)" />
+  <path class="cls-2" d="M1490.4,478" />
+</svg>
